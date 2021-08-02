@@ -1,0 +1,24 @@
+package com.wsb.model;
+
+import javax.persistence.*;
+import javax.validation.constraints.*;
+
+@Entity
+@Table(name = "pessoa_db")
+public class PessoaModel {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private long id;
+	
+	@NotNull(message="Preenchimento obrigatorio!")
+	private String nome;
+	
+	@NotNull(message="Preenchimento obrigatorio!")
+	private String idade;
+	
+	@Email
+	@NotNull(message="Preenchimento obrigatorio!")
+	private String email;
+	
+}
