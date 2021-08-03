@@ -44,3 +44,8 @@
 
 Instale o Java e o eclipse para importa o projeto e rodar.
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 8c4ac65f437b6b7601e0e9d5a2320768a7b8e15f
