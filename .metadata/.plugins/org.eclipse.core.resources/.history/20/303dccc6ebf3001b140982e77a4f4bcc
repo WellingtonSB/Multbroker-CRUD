@@ -21,20 +21,6 @@ public class PessoaModel {
 	@NotNull(message="Preenchimento obrigatorio!")
 	private String email;
 
-	public PessoaModel() {
-		super();
-	}
-
-	public PessoaModel(long id, @NotNull(message = "Preenchimento obrigatorio!") String nome,
-			@NotNull(message = "Preenchimento obrigatorio!") String idade,
-			@Email @NotNull(message = "Preenchimento obrigatorio!") String email) {
-		super();
-		this.id = id;
-		this.nome = nome;
-		this.idade = idade;
-		this.email = email;
-	}
-
 	public long getId() {
 		return id;
 	}
